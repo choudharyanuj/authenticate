@@ -16,11 +16,13 @@ class Home extends Component {
         return (
            
             <div>    
-            Welcome to Home
-               Logout
+            <h1>Welcome to Home
+              </h1>
+              <button onClick = {this.logout}> Logout</button>
                </div>
            );
 
     }
 
 }
+export default Home
